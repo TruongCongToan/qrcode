@@ -32,15 +32,14 @@ const QRCode = () => {
   let data = `${dataGet.qrcode}`
 console.log(dataGet);
 console.log("datat ",data)
+//
   return (
     <div className='qrcode'> 
     <div className='title'>Mã QR của bạn là </div>
       <div className='preview-image' 
-     
       > 
-    <img 
-               
-                src={data} 
+    <img            
+    src={data} 
               
            />
        </div>    
